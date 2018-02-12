@@ -28,6 +28,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'Yggdroot/indentLine'
+Plug 'sheerun/vim-polyglot'
 
 " Initialize plugin system
 call plug#end()
@@ -40,6 +41,9 @@ call plug#end()
 if !exists("g:syntax_on")
     syntax enable
 endif
+
+" Set leader
+let g:mapleader ="`"
 
 " Enable mouse
 if has('mouse')
