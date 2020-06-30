@@ -1,9 +1,10 @@
 # Notepad++
 
 Notepad++ Tips
-
-
-### Replace Notepad Using Debugger Registry Value
+ 
+ 
+ 
+### :one: Replace Notepad Using Debugger Registry Value
 
 Notepad++ will be open whenever double-click a text file, and whenever notepad.exe is executed.
 
@@ -18,12 +19,13 @@ To undo (reverse) the replacement, use the following command:
 ```
 
 More [at](https://www.winhelponline.com/blog/replace-notepad-text-editor-notepad-plus-association)!
+ 
+ 
+ 
+### :two: Get ligatures to work in Notepad++
 
-
-### Get ligatures to work in Notepad++
-
-1. Install ***LuaScript*** via the ***Plugin Manager**.
-2. Edit the LuaScript startup file in ***Plugins*** > ***LuaScript** > ***Edit Startup Script***
+1. Install ***LuaScript*** via the ***Plugin Manager***.
+2. Edit the LuaScript startup file in ***Plugins*** > ***LuaScript*** > ***Edit Startup Script***
 3. Add the following code:
 ```sh
 editor1.Technology = SC_TECHNOLOGY_DIRECTWRITE
